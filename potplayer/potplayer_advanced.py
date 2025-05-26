@@ -4,7 +4,7 @@
 #
 # Macast Metadata
 # <macast.title>PotPlayer Advanced</macast.title>
-# <macast.renderer>PotplayerRenderer Advanced</macast.renderer>
+# <macast.renderer>PotplayerAdvanced</macast.renderer>
 # <macast.platform>win32</macast.platform>
 # <macast.version>0.5</macast.version>
 # <macast.host_version>0.71</macast.host_version>
