@@ -5,8 +5,8 @@ import os
 import re
 import json
 
-REPO_BASE_PATH = 'https://raw.githubusercontent.com/xfangfang/Macast-plugins/main/'
-REPO_URL = "https://github.com/xfangfang/Macast-plugins"
+REPO_BASE_PATH = 'https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/'
+REPO_URL = "https://github.com/isdkz/Macast2-plugins"
 
 
 def read_metadata(path):

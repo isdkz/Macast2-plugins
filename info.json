@@ -1,6 +1,17 @@
 {
     "plugin_v1": [
         {
+            "author": "xfangfang&小棉袄&Reborn",
+            "desc": "IINA echanced support for Macast offical IINA Renderer. Echancement: support headers",
+            "host_version": "0.7",
+            "platform": "darwin",
+            "renderer": "BolanIINARenderer",
+            "title": "波澜播放器-IINA",
+            "type": "renderer",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\bolan-iina\\bolan-iina.py",
+            "version": "0.32"
+        },
+        {
             "author": "xfangfang",
             "desc": "IINA support for Macast. Because iina is developed based on MPV, this plugin's experience is similar to the built-in MPV renderer.",
             "host_version": "0.7",
@@ -8,8 +19,30 @@
             "renderer": "IINARenderer",
             "title": "IINA Renderer",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/xfangfang/Macast-plugins/main/iina/iina.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\iina\\iina.py",
             "version": "0.31"
+        },
+        {
+            "author": "dushan555",
+            "desc": "Live support for Macast,It developed based on MPVRenderer,Can be used to watch live TV.",
+            "host_version": "0.7",
+            "platform": "win32,darwin,linux",
+            "renderer": "LiveRenderer",
+            "title": "Live Renderer",
+            "type": "renderer",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\live\\live.py",
+            "version": "0.2"
+        },
+        {
+            "author": "xfangfang",
+            "desc": "NVA protocol support for Macast. Known as \"哔哩必连\".",
+            "host_version": "0.7",
+            "platform": "darwin,win32,linux",
+            "protocol": "NVAProtocol",
+            "title": "NVA Protocol",
+            "type": "protocol",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\nirvana\\nirvana.py",
+            "version": "0.33"
         },
         {
             "author": "xfangfang",
@@ -19,18 +52,7 @@
             "renderer": "PIFMRenderer",
             "title": "PIFMRDS Renderer",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/xfangfang/Macast-plugins/main/pi-fm-rds/pi_fm.py",
-            "version": "0.2"
-        },
-        {
-            "author": "xfangfang",
-            "desc": "Using web browser as DLNA media renderer, This plugin can be used to download media files or get some m3u8 played.",
-            "host_version": "0.7",
-            "platform": "darwin,linux,win32",
-            "renderer": "WebRenderer",
-            "title": "Web Renderer",
-            "type": "renderer",
-            "url": "https://raw.githubusercontent.com/xfangfang/Macast-plugins/main/web/web.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\pi-fm-rds\\pi_fm.py",
             "version": "0.2"
         },
         {
@@ -41,31 +63,31 @@
             "renderer": "PotplayerRenderer",
             "title": "PotPlayer Renderer",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/xfangfang/Macast-plugins/main/potplayer/potplayer.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\potplayer\\potplayer.py",
             "version": "0.4"
         },
         {
             "author": "xfangfang",
-            "desc": "NVA protocol support for Macast. Known as \"哔哩必连\".",
-            "host_version": "0.7",
-            "platform": "darwin,win32,linux",
-            "protocol": "NVAProtocol",
-            "title": "NVA Protocol",
-            "type": "protocol",
-            "url": "https://raw.githubusercontent.com/xfangfang/Macast-plugins/main/nirvana/nirvana.py",
-            "version": "0.33"
+            "desc": "PotPlayer support for Macast.",
+            "host_version": "0.71",
+            "platform": "win32",
+            "renderer": "PotplayerRenderer",
+            "title": "PotPlayer Advanced",
+            "type": "renderer",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\potplayer\\potplayer_advanced.py",
+            "version": "0.4"
         },
         {
-            "author": "dushan555",
-            "desc": "Live support for Macast, It developed based on MPVRenderer, Can be used to watch live TV.",
+            "author": "xfangfang",
+            "desc": "Using web browser as DLNA media renderer, This plugin can be used to download media files or get some m3u8 played.",
             "host_version": "0.7",
-            "platform": "win32,darwin,linux",
-            "renderer": "LiveRenderer",
-            "title": "Live Renderer",
+            "platform": "darwin,linux,win32",
+            "renderer": "WebRenderer",
+            "title": "Web Renderer",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/xfangfang/Macast-plugins/main/live/live.py",
-            "version": "0.1"
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\web\\web.py",
+            "version": "0.2"
         }
     ],
-    "repo_url": "https://github.com/xfangfang/Macast-plugins"
+    "repo_url": "https://github.com/isdkz/Macast2-plugins"
 }
