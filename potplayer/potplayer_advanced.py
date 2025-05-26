@@ -231,7 +231,7 @@ def set_potplayer_hotkey(potplayer_registry_key, func_key, main_key, func_code):
             win32con.REG_SZ,
             "")
   
-class PotplayerRenderer(Renderer):
+class PotplayerAdvanced(Renderer):
     def __init__(self):
         super(PotplayerRenderer, self).__init__()
         self.pid = None
