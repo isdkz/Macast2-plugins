@@ -69,13 +69,13 @@
         {
             "author": "xfangfang",
             "desc": "PotPlayer support for Macast.",
-            "host_version": "0.72",
+            "host_version": "0.71",
             "platform": "win32",
             "renderer": "PotplayerRenderer Advanced",
             "title": "PotPlayer Advanced",
             "type": "renderer",
             "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/potplayer/potplayer_advanced.py",
-            "version": "0.4"
+            "version": "0.5"
         },
         {
             "author": "xfangfang",
