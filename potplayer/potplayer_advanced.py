@@ -4,10 +4,10 @@
 #
 # Macast Metadata
 # <macast.title>PotPlayer Advanced</macast.title>
-# <macast.renderer>PotplayerRenderer</macast.title>
-# <macast.platform>win32</macast.title>
+# <macast.renderer>PotplayerRenderer Advanced</macast.renderer>
+# <macast.platform>win32</macast.platform>
 # <macast.version>0.4</macast.version>
-# <macast.host_version>0.71</macast.host_version>
+# <macast.host_version>0.72</macast.host_version>
 # <macast.author>xfangfang</macast.author>
 # <macast.desc>PotPlayer support for Macast.</macast.desc>
 
@@ -24,7 +24,7 @@ import win32process,win32api,win32gui,win32con
 from enum import Enum
 from contextlib import contextmanager
 from macast import SETTING_DIR, Setting
-from macast.utils import notify_error, win32_reg_open
+from macast.utils import notify_error
 from macast.renderer import Renderer
 
 # We will read the potplayer location in the Windows registry first.
@@ -45,6 +45,20 @@ subtitle = os.path.join(SETTING_DIR, "macast.ass")
 
 class SettingProperty(Enum):
     Potplayer_Path = 0
+
+@contextmanager
+def win32_reg_open(key, access=None, hive=None):
+    if access is None:
+        access = win32con.KEY_SET_VALUE
+    if hive is None:
+        hive = win32con.HKEY_CURRENT_USER
+    handle = win32api.RegOpenKey(
+        hive,
+        key,
+        0,
+        access)
+    yield handle
+    win32api.RegCloseKey(handle)
 
 def find_hwnd_by_pid(pid):
     hwnd_title = []
