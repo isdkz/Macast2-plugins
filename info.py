@@ -11,7 +11,7 @@ REPO_URL = "https://github.com/isdkz/Macast2-plugins"
 
 def read_metadata(path):
     data = {}
-    base_name = "/".join(path.split('/')[-2:])
+    base_name = "/".join(path.split(os.path.sep)[-2:])
     with open(path, 'r', encoding='utf-8') as f:
         renderer_file = f.read()
         metadata = re.findall("<macast.(.*?)>(.*?)</macast", renderer_file)

@@ -8,7 +8,7 @@
             "renderer": "BolanIINARenderer",
             "title": "波澜播放器-IINA",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\bolan-iina\\bolan-iina.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/bolan-iina/bolan-iina.py",
             "version": "0.32"
         },
         {
@@ -19,7 +19,7 @@
             "renderer": "IINARenderer",
             "title": "IINA Renderer",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\iina\\iina.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/iina/iina.py",
             "version": "0.31"
         },
         {
@@ -30,7 +30,7 @@
             "renderer": "LiveRenderer",
             "title": "Live Renderer",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\live\\live.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/live/live.py",
             "version": "0.2"
         },
         {
@@ -41,7 +41,7 @@
             "protocol": "NVAProtocol",
             "title": "NVA Protocol",
             "type": "protocol",
-            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\nirvana\\nirvana.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/nirvana/nirvana.py",
             "version": "0.33"
         },
         {
@@ -52,7 +52,7 @@
             "renderer": "PIFMRenderer",
             "title": "PIFMRDS Renderer",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\pi-fm-rds\\pi_fm.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/pi-fm-rds/pi_fm.py",
             "version": "0.2"
         },
         {
@@ -63,7 +63,7 @@
             "renderer": "PotplayerRenderer",
             "title": "PotPlayer Renderer",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\potplayer\\potplayer.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/potplayer/potplayer.py",
             "version": "0.4"
         },
         {
@@ -74,7 +74,7 @@
             "renderer": "PotplayerRenderer",
             "title": "PotPlayer Advanced",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\potplayer\\potplayer_advanced.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/potplayer/potplayer_advanced.py",
             "version": "0.4"
         },
         {
@@ -85,7 +85,7 @@
             "renderer": "WebRenderer",
             "title": "Web Renderer",
             "type": "renderer",
-            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/D:\\a\\Macast2-plugins\\web\\web.py",
+            "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/web/web.py",
             "version": "0.2"
         }
     ],
