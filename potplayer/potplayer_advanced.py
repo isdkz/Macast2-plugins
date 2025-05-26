@@ -6,7 +6,7 @@
 # <macast.title>PotPlayer Advanced</macast.title>
 # <macast.renderer>PotplayerRenderAdvanced</macast.renderer>
 # <macast.platform>win32</macast.platform>
-# <macast.version>0.5</macast.version>
+# <macast.version>0.6</macast.version>
 # <macast.host_version>0.71</macast.host_version>
 # <macast.author>xfangfang</macast.author>
 # <macast.desc>PotPlayer support for Macast.</macast.desc>

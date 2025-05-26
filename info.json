@@ -75,7 +75,7 @@
             "title": "PotPlayer Advanced",
             "type": "renderer",
             "url": "https://raw.githubusercontent.com/isdkz/Macast2-plugins/main/potplayer/potplayer_advanced.py",
-            "version": "0.5"
+            "version": "0.6"
         },
         {
             "author": "xfangfang",
