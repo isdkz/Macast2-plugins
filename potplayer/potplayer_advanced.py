@@ -4,7 +4,7 @@
 #
 # Macast Metadata
 # <macast.title>PotPlayer Advanced</macast.title>
-# <macast.renderer>PotplayerAdvanced</macast.renderer>
+# <macast.renderer>PotplayerRenderAdvanced</macast.renderer>
 # <macast.platform>win32</macast.platform>
 # <macast.version>0.5</macast.version>
 # <macast.host_version>0.71</macast.host_version>
@@ -231,9 +231,9 @@ def set_potplayer_hotkey(potplayer_registry_key, func_key, main_key, func_code):
             win32con.REG_SZ,
             "")
   
-class PotplayerAdvanced(Renderer):
+class PotplayerRenderAdvanced(Renderer):
     def __init__(self):
-        super(PotplayerRenderer, self).__init__()
+        super().__init__()
         self.pid = None
         self.hwnd = None
 
@@ -393,17 +393,17 @@ class PotplayerAdvanced(Renderer):
         send_key(h, win32con.VK_ESCAPE)
 
     def stop(self):
-        super(PotplayerRenderer, self).stop()
+        super().stop()
         self.set_media_stop()
         self.protocol.set_state_stop()
         logger.info("PotPlayer stop")
 
     def start(self):
-        super(PotplayerRenderer, self).start()
+        super().start()
         logger.info("PotPlayer start")
 
 
 if __name__ == '__main__':
     from macast import gui
     Setting.setup_logger()
-    gui(PotplayerRenderer())
+    gui(PotplayerRenderAdvanced())
