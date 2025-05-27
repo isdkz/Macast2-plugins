@@ -1227,7 +1227,7 @@ class NVAConectionHandler(NVAConectionBaseHandler):
             self.renderer.set_media_text(f'暂未支持弹幕：{params["content"]}', 4000)
         elif method == 'SwitchDanmaku':
             self.send_res(counter)
-            self.renderer.set_media_sub_show(False if params['open'] == 'false' else True)
+            self.renderer.set_media_sub_show(params['open'])
         elif method == 'SwitchSpeed':
             speed = float(params['speed'])
             self.renderer.set_media_speed(speed)
